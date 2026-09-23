@@ -141,3 +141,26 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+# Aegis Core local secrets and certificates
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+
+# Local MCP configuration
+.mcp/
+
+# Local runtime/temp files
+tmp/
+temp/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+*.swp
+*.swo
